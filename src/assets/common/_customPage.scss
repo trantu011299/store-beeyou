@@ -1,0 +1,60 @@
+.App{
+    background-color: $colorBackground;
+    @include breakpoint(max-sm) {
+        background-color: #FFFFFF;
+    }
+}
+
+.button-primary{
+    margin-top: 15px;
+    background: #FFC800;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 24px;
+    border: none;
+    cursor: pointer;
+    .button-text{
+        margin: 0;
+        font-weight: 700;
+        width: auto!important;
+    }
+    @include breakpoint(max-sm) {
+        width: 100%;
+    }
+}
+
+.button-buy{
+    padding: 16px 24px;
+    width: 100%;
+    @include breakpoint(max-sm) {
+        padding: 12px 24px;
+    }
+}
+
+.mobile-screen{
+    display: none;
+    @include breakpoint(max-sm) {
+        display: block;
+    }
+}
+
+.desktop-screen{
+    @include breakpoint(max-sm) {
+        display: none;
+    }
+}
+
+@font-face { font-family: ProductSans;
+    src: url('../font/SVN-Product\ Sans\ Regular.ttf');
+}
+
+body{
+    font-family: ProductSans, serif!important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    // line-height: 24px;
+    margin: 0!important;
+}

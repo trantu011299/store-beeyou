@@ -1,0 +1,82 @@
+.header{
+    padding: 15px 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    @include breakpoint(max-sm) {
+        padding: 15px 10px;
+        background-color: #FFFFFF;
+    }
+    &-left{
+        display: flex;
+    }
+    &-nav{
+        display: flex;
+        align-items: center;
+        @include breakpoint(max-sm) {
+            display: none;
+        }
+        h5{
+            position: relative;
+            z-index: 2;
+            transition: 0.7s;
+            span{
+                position: relative;
+                z-index: 2;
+            }
+            &:hover{
+                .content{
+                    &-block{
+                        transition: 0.7s;
+                        position: absolute;
+                        z-index: 1;
+                        top: 12px;
+                        width: 100%;
+                        height: 8px;
+                        background: #FFC800;
+                        border-radius: 12px;
+                    }
+                }
+            }
+        }
+    }
+    &-right{
+        @include breakpoint(max-sm) {
+            display: flex;
+            align-items: center;
+        }
+        .cart{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            background-color: #FFC800;
+            border-radius: 50%;
+            cursor: pointer;
+            .cart-num{
+                position: absolute;
+                right: -8px;
+                top: -8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 18px;
+                height: 18px;
+                background-color: #009EFE;
+                border-radius: 50%;
+                border: $colorBackground 2px solid;
+            }
+        }
+        .icon-nav-mobile{
+            display: none;
+            @include breakpoint(max-sm) {
+                display: flex;
+                margin-left: 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,110 @@
+.image-bag{
+    width: auto;
+    @include breakpoint(max-sm) {
+        width: 75%!important;
+    }
+}
+.main-review{
+    display: flex;
+    margin-top: 30px;
+    padding-right: 150px;
+    @include breakpoint(max-sm) {
+        padding-right: 0;
+        display: block;
+    }
+    &-list{
+        margin-left: 200px;
+        @include breakpoint(max-sm) {
+            margin: 0 15px!important;
+        }
+        @include breakpoint(max-md) {
+            margin-left: 100px;
+        }
+    }
+    &-block{
+        display: flex;
+        @include breakpoint(max-sm) {
+            display: block;
+            margin-right: -20px;
+            width: 100%;
+        }
+    }
+    &-comment{
+        display: flex;
+        flex-direction: column;
+        // margin-left: -25px;
+        @include breakpoint(max-sm) {
+            // margin-left: -20px;
+        }
+        .image-reviewfb{
+            margin: -10px 0;
+            &-block{
+                position: relative;
+            }
+            &-casetop{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 95%;
+                height: 100%;
+                background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 121.74%);
+            }
+            &-casebot{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 95%;
+                height: 100%;
+                background: linear-gradient(360deg, #F4F4F4 -0.19%, rgba(244, 244, 244, 0) 161.82%);
+            }
+            &-mid{
+                width: 95%;
+            }
+            &-top{
+                width: 95%;
+            }
+            &-bot{
+                width: 95%;
+            }
+        }
+    }
+    &-paging{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 80px;
+        @include breakpoint(max-sm) {
+            flex-direction: row;
+            margin-left: 0;
+        }
+    }
+    &-arrow{
+        width: 40px;
+        height: 40px;
+        background-color: #FFC800;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 8px 0;
+        cursor: pointer;
+        @include breakpoint(max-sm) {
+            margin: 8px;
+        }
+    }
+    .image-arrow{
+        width: auto!important;
+        &-top{
+            @include breakpoint(max-sm) {
+                transform: rotate(-90deg);
+            }
+        }
+        &-bot{
+            transform: matrix(1, 0, 0, -1, 0, 0);
+            @include breakpoint(max-sm) {
+                transform: matrix(0, -1, -1, 0, 0, 0);
+            }
+        }
+    }
+}

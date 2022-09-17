@@ -1,0 +1,32 @@
+.footer{
+    padding: 15px 5px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        @include breakpoint(max-sm) {
+            flex-direction: column;
+        }
+    }
+    @include breakpoint(max-sm) {
+        padding: 15px 10px;
+    }
+    &-left{
+        display: flex;
+        @include breakpoint(max-sm) {
+            flex-wrap: wrap;
+            justify-content: inherit;
+        }
+    }
+    &-right{
+        display: flex;
+        align-items: center;
+        @include breakpoint(max-sm) {
+            flex-wrap: wrap;
+            justify-content: inherit;
+        }
+    }
+}

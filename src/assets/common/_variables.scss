@@ -1,0 +1,141 @@
+// Font Colors
+$base-font-family: 'Open Sans';
+$base-font-color: #36353e;
+$base-font-weight: normal;
+$base-line-height: 1.5;
+
+//Background Colors
+$white-1: #ffffff;
+$white-2: #fafafa;
+$background-primary: #252242;
+//$background-primary: #252242;
+//...
+
+$black-1: #000000;
+$black-2: #36353e;
+$black-3: #444444;
+$black-4: #373737;
+$black-5: #35363f;
+$black-6: #262626;
+//...
+
+$yellow-1: #ff8917;
+$yellow-2: #ff8917;
+$yellow-3: #fdb913;
+$yellow-4: #fffcee;
+//...
+
+$blue-1: #1890ff;
+$blue-2: #428dc5;
+$blue-3: #2cbce6;
+$blue-4: #e2f4f9;
+$blue-5: #0b324f;
+$blue-6: #546fae;
+$blue-7: #336ce0;
+$blue-8: #d7effd;
+$blue-9: #f1f8fc;
+$blue-ant: #40a9ff;
+$blue-10: #096dd9;
+//...
+
+$red-1: #f5222d;
+$red-2: #cf1322;
+$red-3: #ff9aa7;
+$red-4: #ffdde1;
+$red-5: #dd4d30;
+$red-6: #d92c26;
+$red-7: #f05858;
+$red-primary: #191623;
+//...
+
+$green-1: #389e0d;
+$green-2: #91bb15;
+$green-3: #add075;
+$green-4: #577209;
+$green-5: #5a8a0d;
+$green-6: #37a74b;
+//...
+
+$gray-1: #f1f1f1;
+$gray-2: #eee;
+$gray-3: #999;
+$gray-4: #f0f0f0;
+$gray-5: #CBC4D8;
+$gray-6: #dddddd;
+$gray-7: #f8f8f8;
+$gray-8: #d8d8d8;
+$gray-9: #ededed;
+$gray-10: #dbdbdb;
+$gray-11: #8a8a8a;
+$gray-12: #595959;
+$gray-13: #808080;
+//...
+
+$pink-1: #fffde7;
+//...
+
+$text-color: #000;
+$border-color: #d9d9d9;
+$shadow-ant: 0 0 0 2px rgba(24, 144, 255, 0.2);
+
+$Luxury-a500: linear-gradient(93.21deg, #FC4AF5 -36.51%, #0846E4 135.15%);
+//Font Size
+$size-6: 6px;
+$size-8: 8px;
+$size-10: 10px;
+$size-11: 11px;
+$size-12: 12px;
+$size-13: 13px;
+$size-14: 14px;
+$size-16: 16px;
+$size-18: 18px;
+$size-20: 20px;
+$size-22: 22px;
+$size-24: 24px;
+$size-26: 26px;
+$size-28: 28px;
+$size-30: 30px;
+$size-32: 32px;
+$size-34: 34px;
+$size-36: 36px;
+$size-38: 38px;
+$size-40: 40px;
+$size-42: 42px;
+$size-44: 44px;
+$size-46: 46px;
+$size-48: 48px;
+$size-50: 50px;
+$size-100: 100px;
+
+//Font weight
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+$extrabold: 900;
+
+//Responsive
+$screen-xs: 576px;
+$screen-xss: 374px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+$screen-xl: 1500px;
+
+//grid
+$screen-sm-max: ($screen-md - 1);
+$screen-md-max: ($screen-lg - 1);
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+
+//box-shadow
+$shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+$hover-color: #fff7e6;
+
+$border-success: rgba(199, 232, 178, 0.6);
+$background-success: rgba(82, 208, 1, 0.06);
+
+$border-failed: #ffa39e;
+$background-failed: #fff1f0;

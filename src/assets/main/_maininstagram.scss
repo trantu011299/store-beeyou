@@ -1,0 +1,41 @@
+.main-instagram{
+    margin-top: 100px;
+    // display: flex;
+    // justify-content: center;
+    // flex-direction: column;
+    // align-items: center;
+        text-align: center;
+        padding: 0 24px;
+    &-text{
+        display: flex;
+        justify-content: center;
+        a{
+            margin-left: 5px;
+            color: #009EFE;
+            text-decoration-line: underline;
+        }
+    }
+    &-list{
+        overflow-x: scroll;
+        flex-wrap: inherit;
+        scroll-behavior: smooth;
+        display: flex;
+        margin-top: 40px;
+        &::-webkit-scrollbar { 
+            width: 0 !important;
+            display: none; 
+          }
+        .image-instagram{
+            box-sizing: border-box;
+            padding: 8px;
+            min-width: 285px;
+            background-color: #FFFFFF;
+            border-radius: 16px;
+            margin: 0 15px;
+            @include breakpoint(max-sm) {
+                min-width: 145px;
+                margin: 0 8px;
+            }
+        }
+    }
+}

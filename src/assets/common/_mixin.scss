@@ -1,0 +1,99 @@
+@mixin breakpoint($point) {
+    @if $point == xss {
+        @media (max-width: $screen-xss) {
+            @content;
+        }
+    } @else if $point == xs {
+        @media (max-width: $screen-xs) {
+            @content;
+        }
+    } @else if $point == min-xs {
+        @media (min-width: $screen-xs) {
+            @content;
+        }
+    } @else if $point == sm {
+        @media (min-width: $screen-sm) {
+            @content;
+        }
+    } @else if $point == max-xs {
+        @media (max-width: $screen-sm) {
+            @content;
+        }
+    } @else if $point == md {
+        @media (min-width: $screen-md) {
+            @content;
+        }
+    } @else if $point == lg {
+        @media (min-width: $screen-lg) {
+            @content;
+        }
+    } @else if $point == xl {
+        @media (min-width: $screen-xl) {
+            @content;
+        }
+    } @else if $point == max-sm {
+        @media (max-width: $screen-md) {
+            @content;
+        }
+    } @else if $point == max-md {
+        @media (max-width: $screen-lg) {
+            @content;
+        }
+    } @else if $point == only-sm {
+        @media (min-width: $screen-sm) and (max-width: $screen-md) {
+            @content;
+        }
+    } @else if $point == only-md {
+        @media (min-width: $screen-md) and (max-width: $screen-lg) {
+            @content;
+        }
+    } @else if $point == max-lg {
+        @media (max-width: 1325px) and (min-width: $screen-md) {
+            @content;
+        }
+    }
+}
+@mixin container() {
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    @include breakpoint(sm) {
+        width: 750px;
+    }
+    @include breakpoint(md) {
+        width: 970px;
+    }
+    @include breakpoint(lg) {
+        width: 1200px;
+    }
+    @include breakpoint(xl) {
+        width: 1410px;
+    }
+}
+
+@mixin containerHome() {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 100%;
+    //@include breakpoint(md){width:970px;}
+    @include breakpoint(lg) {
+        width: 1170px;
+    }
+    @include breakpoint(xl) {
+        width: 1410px;
+    }
+    @include breakpoint(max-lg) {
+        padding: 0 24px;
+    }
+}
+.container {
+    @include container();
+}
+
+.containerHome {
+    @include containerHome();
+}
