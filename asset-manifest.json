@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/store-beeyou/static/css/main.ba210749.css",
+    "main.js": "/store-beeyou/static/js/main.45716a32.js",
+    "static/js/787.28cb0dcd.chunk.js": "/store-beeyou/static/js/787.28cb0dcd.chunk.js",
+    "static/media/slider.png": "/store-beeyou/static/media/slider.695db4c437c0f159ec71.png",
+    "static/media/takebag.png": "/store-beeyou/static/media/takebag.5ea5c2ce9b07f7bb1847.png",
+    "static/media/background-image-main.jpg": "/store-beeyou/static/media/background-image-main.99a417763e5fbc87ce79.jpg",
+    "static/media/image-maintop.png": "/store-beeyou/static/media/image-maintop.d9fe545dd3d55445798b.png",
+    "static/media/SVN-Product Sans Regular.ttf": "/store-beeyou/static/media/SVN-Product Sans Regular.91f17042d7a207f7ffd7.ttf",
+    "static/media/image-instagram.png": "/store-beeyou/static/media/image-instagram.0a59d74164bfc30b5492.png",
+    "static/media/product.png": "/store-beeyou/static/media/product.0001b7bc412c71da6937.png",
+    "static/media/background-image-main-mobile.png": "/store-beeyou/static/media/background-image-main-mobile.13dca74b756587043096.png",
+    "static/media/slider-mobile.png": "/store-beeyou/static/media/slider-mobile.859431b98102e6444b16.png",
+    "static/media/reviewfb.png": "/store-beeyou/static/media/reviewfb.24b7c879bcb7c98c7eb2.png",
+    "static/media/slick.svg": "/store-beeyou/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/store-beeyou/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/store-beeyou/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/store-beeyou/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/store-beeyou/index.html",
+    "main.ba210749.css.map": "/store-beeyou/static/css/main.ba210749.css.map",
+    "main.45716a32.js.map": "/store-beeyou/static/js/main.45716a32.js.map",
+    "787.28cb0dcd.chunk.js.map": "/store-beeyou/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba210749.css",
+    "static/js/main.45716a32.js"
+  ]
+}
