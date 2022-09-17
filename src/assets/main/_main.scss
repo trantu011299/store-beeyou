@@ -34,6 +34,10 @@
             height: 730px;
             padding-bottom: 0!important;
         }
+        @include breakpoint(xl) {
+            height: 730px;
+            padding-bottom: 400px!important;
+        }
         @include breakpoint(lg) {
             height: 730px;
             padding-bottom: 200px;

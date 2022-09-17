@@ -30,6 +30,4 @@ export const PRODUCTBLOCK: Array<object> = [
     { image: 'ImageProduct', title: "Túi Totes Cactus Bag nữ tính xành điệu", price: '320.000 đ' },
     { image: 'ImageProduct', title: "Túi Totes Cactus Bag nữ tính xành điệu", price: '320.000 đ' },
     { image: 'ImageProduct', title: "Túi Totes Cactus Bag nữ tính xành điệu", price: '320.000 đ' },
-    { image: 'ImageProduct', title: "Túi Totes Cactus Bag nữ tính xành điệu", price: '320.000 đ' },
-    { image: 'ImageProduct', title: "Túi Totes Cactus Bag nữ tính xành điệu", price: '320.000 đ' },
 ]
